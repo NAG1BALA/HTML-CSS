@@ -17,6 +17,14 @@
 
 body {
     font-family: "Gilroy Bold";
+    max-width: 1920px;
+    
+}
+
+.container {
+    display: block;
+    margin: auto;
+    
 }
 
 .top {
@@ -28,7 +36,8 @@ body {
     margin-left: 375px;
     margin-right:375px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    
 }
 
 .header__logo {
@@ -44,6 +53,7 @@ body {
 }
 
 .header__link {
+    filter: drop-shadow(0 4 4px #000000);
     text-decoration: none;
     color: #000000;
     padding: 5px;
@@ -58,6 +68,14 @@ body {
 
 }
 
+.top__info {
+    margin-right: 20px;
+}
+
+.content__logo {
+    margin-left: 20px;
+}
+
 .top__content {
     display: flex;
     margin-top: 84px;
@@ -70,15 +88,15 @@ body {
     margin-bottom: 17px;
     font-size: 60px;
     color:#000000;
-    padding-right: 39px;
+    
 }
 
 .text {
     font-family: "Gilroy Medium";
     color: #888888;
     font-size: 20px;
-    margin-bottom: 39px;
-    padding-right: 95px;
+    margin-bottom: 37px;
+    padding-right: 56px;
 }
 
 .top__buttons {
