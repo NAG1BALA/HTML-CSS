@@ -7,6 +7,15 @@
     font-family: 'Lato', sans-serif;   
 }
 
+a {
+    text-decoration: none;
+}
+
+.center {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+}
+
 .site {
     padding-bottom: 60px;
 }
@@ -14,6 +23,7 @@
 .header {
     background-color: #222222;
     display: flex;
+    justify-content: center;
 }
 
 .logo {
@@ -50,6 +60,7 @@
 .top__main {
     background-color: #f1e4e6;
     display: flex;
+    justify-content: center;
 }
 
 .main__zone {
@@ -88,6 +99,7 @@
 
 .top__line {
     display: flex;
+    justify-content: center;
 }
 
 .for__women {
@@ -110,6 +122,8 @@
 }
 
 .bottom__line {
+    display: flex;
+    justify-content: center;
     padding-top: 30px;
     padding-left: 230px;
     padding-right: 230px;
@@ -118,8 +132,7 @@
 
 .desc__title {
     font-family: 'Lato', sans-serif; 
-    padding-left: 710px;
-    padding-right: 708px;
+    text-align: center;
     padding-bottom: 6px;
     font-weight: 400;
     font-size: 30px;
@@ -128,8 +141,7 @@
 
 .desc__text {
     font-family: 'Lato', sans-serif; 
-    padding-left: 631px;
-    padding-right: 633px;
+    text-align: center;
     font-weight: 400;
     font-size: 14px;
     color: #9f9f9f;
@@ -137,6 +149,7 @@
 
 .top__products {
     display: flex;
+    justify-content: center;
 }
 
 .first__product {
@@ -162,6 +175,7 @@
 
 .bottom__products {
     display: flex;
+    justify-content: center;
 }
 
 .fourth__product {
@@ -215,6 +229,11 @@
     color: #f16d7f;
 }
 
+.bottom__button {
+    display: flex;
+    justify-content: center;
+}
+
 .browse__button {
     border-color: #ff6a6a;
     border-width: thin;
@@ -230,4 +249,9 @@
     font-weight: 400;
     font-size: 16px;
     background-color: white;
+}
+
+
+@media (max-width: 1024px) {
+
 }
